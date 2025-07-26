@@ -1,0 +1,55 @@
+/* Styling for show.ejs and error.ejs */
+
+/* Container for post details */
+.post {
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+/* Heading for post detail page */
+h2.post {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* Username styling */
+.user {
+  color: #2980b9;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+/* Content styling */
+.content {
+  font-size: 1.15rem;
+  color: #555;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+/* Error message styling */
+h2.post {
+  color: #e74c3c;
+}
+
+h3.user {
+  color: #c0392b;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .post {
+    padding: 15px 20px;
+    margin: 20px 10px;
+  }
+}
